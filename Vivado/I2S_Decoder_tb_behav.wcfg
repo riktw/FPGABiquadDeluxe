@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="I2S_Decoder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="I2S_Decoder_tb" />
+            <top_module name="biquad_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="44343000000fs"></ZoomStartTime>
+      <ZoomEndTime time="58958979383fs"></ZoomEndTime>
+      <Cursor1Time time="45630876000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/CODEC_RST">
+      <obj_property name="ElementShortName">CODEC_RST</obj_property>
+      <obj_property name="ObjectShortName">CODEC_RST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/LRCLK">
+      <obj_property name="ElementShortName">LRCLK</obj_property>
+      <obj_property name="ObjectShortName">LRCLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/MCLK">
+      <obj_property name="ElementShortName">MCLK</obj_property>
+      <obj_property name="ObjectShortName">MCLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/SCLK">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/CLK100MHZ">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/SDIN">
+      <obj_property name="ElementShortName">SDIN</obj_property>
+      <obj_property name="ObjectShortName">SDIN</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/SDOUT">
+      <obj_property name="ElementShortName">SDOUT</obj_property>
+      <obj_property name="ObjectShortName">SDOUT</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/SDOUT2">
+      <obj_property name="ElementShortName">SDOUT2</obj_property>
+      <obj_property name="ObjectShortName">SDOUT2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/DataLeft">
+      <obj_property name="ElementShortName">DataLeft[23:0]</obj_property>
+      <obj_property name="ObjectShortName">DataLeft[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/DataRight">
+      <obj_property name="ElementShortName">DataRight[23:0]</obj_property>
+      <obj_property name="ObjectShortName">DataRight[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/DataRightReady">
+      <obj_property name="ElementShortName">DataRightReady</obj_property>
+      <obj_property name="ObjectShortName">DataRightReady</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/I2S_Decoder_tb/DataLeftReady">
+      <obj_property name="ElementShortName">DataLeftReady</obj_property>
+      <obj_property name="ObjectShortName">DataLeftReady</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/sw">
+      <obj_property name="ElementShortName">sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/datacnt">
+      <obj_property name="ElementShortName">datacnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">datacnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/I2S_Decoder_tb/CLK_PERIOD">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/I2S_Decoder_tb/CLK_PERIOD_I2S">
+      <obj_property name="ElementShortName">CLK_PERIOD_I2S</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD_I2S</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/CDATALEFT">
+      <obj_property name="ElementShortName">CDATALEFT[47:0]</obj_property>
+      <obj_property name="ObjectShortName">CDATALEFT[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/CDATARIGHT">
+      <obj_property name="ElementShortName">CDATARIGHT[47:0]</obj_property>
+      <obj_property name="ObjectShortName">CDATARIGHT[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/d">
+      <obj_property name="ElementShortName">d[23:0]</obj_property>
+      <obj_property name="ObjectShortName">d[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/x1[0]">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/x2[0]">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/y1[0]">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/y2[0]">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/x1[1]">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/x2[1]">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/y1[1]">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/y2[1]">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/q">
+      <obj_property name="ElementShortName">q[23:0]</obj_property>
+      <obj_property name="ObjectShortName">q[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/I2S_Decoder_tb/I2Stest_0/biquad_left/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+</wave_config>

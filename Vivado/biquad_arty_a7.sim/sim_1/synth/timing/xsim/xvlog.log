@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/rik/PersonalFiles/Projects/Hobby/BiQuad/biquad_arty_a7/biquad_arty_a7.sim/sim_1/synth/timing/xsim/I2S_Decoder_tb_time_synth.v" into library work
+INFO: [VRFC 10-311] analyzing module I2S_Decoder
+INFO: [VRFC 10-311] analyzing module I2S_Encoder
+INFO: [VRFC 10-311] analyzing module I2Stestrik
+INFO: [VRFC 10-311] analyzing module SimpleVolume
+INFO: [VRFC 10-311] analyzing module biquad
+INFO: [VRFC 10-311] analyzing module biquad_0
+INFO: [VRFC 10-311] analyzing module biquad__parameterized2
+INFO: [VRFC 10-311] analyzing module biquad__parameterized2_1
+INFO: [VRFC 10-311] analyzing module leftrightChange
+INFO: [VRFC 10-311] analyzing module glbl
